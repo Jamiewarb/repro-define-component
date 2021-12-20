@@ -17,6 +17,9 @@ To get the error:
 - Run `yarn dev` and open localhost:3000 in a browser.
 - Observe the error "defineComponent is not defined".
 
+![image](https://user-images.githubusercontent.com/2754728/146798150-710ef71d-7cac-4937-ab68-3e60b20958dd.png)
+
+
 To circumvent the error:
 
 - Remove either the entire `<input>` element or the entire `<button>` element.
