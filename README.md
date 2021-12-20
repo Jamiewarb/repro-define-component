@@ -7,7 +7,7 @@ This repo was created following these instructions:
 1. Create a fresh Nuxt 2 project `yarn create nuxt-app define-component`
 2. Upgrade to Nuxt Bridge following this guide: https://v3.nuxtjs.org/getting-started/bridge/
 3. Add a Test.vue component to `~/components`
-4. Add an input and a button, and give them `@change` and `@click.prevent` events respectively.
+4. Add an input and a button, and give them `@change` and `@click.prevent` events respectively (or use `v-on:`)
 5. The handler for these events doesn't matter, but I made them call a method on the component.
 
 ## The Error
