@@ -19,7 +19,7 @@ To get the error:
 
 To circumvent the error:
 
-- Remove either the entire <input> element or the entire <button> element.
+- Remove either the entire `<input>` element or the entire `<button>` element.
 - Open localhost:3000 in a browser.
 - Observe the error no longer displays.
 
