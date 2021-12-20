@@ -1,7 +1,7 @@
 <template>
   <div>
-    <input @change="$emit('input')" />
-    <button @click.prevent="$emit('test')">
+    <input @change="test" />
+    <button @click.prevent="test">
       <slot />
     </button>
   </div>
@@ -10,5 +10,10 @@
 <script>
 export default defineComponent({
   name: 'BaseButton',
+  methods: {
+    test() {
+      console.log('test')
+    },
+  },
 })
 </script>

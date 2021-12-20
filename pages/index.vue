@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BaseButton>Click Me</BaseButton>
+    <Test>Click Me</Test>
   </div>
 </template>
 
